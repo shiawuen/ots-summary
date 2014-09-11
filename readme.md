@@ -1,18 +1,17 @@
 
-#node-libots
 
 Wrap libots for text summary
 
 ##Installation
 
 ```
-npm i libots
+npm i ots-summary
 ```
 
 ##Example
 
 ```
-var ots = require('libots);
+var ots = require('ots-summary);
 var fs = require('fs')
 
 var file = fs.createReadStream('example.txt')

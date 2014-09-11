@@ -1,5 +1,5 @@
 {
-  "name": "libots",
+  "name": "ots-summary",
   "version": "1.0.0",
   "description": "Wrap libots for text summary",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shiawuen/node-libots.git"
+    "url": "https://github.com/shiawuen/ots-summary.git"
   },
   "keywords": [
     "summary",
@@ -18,9 +18,9 @@
   "author": "Tan Shiaw Uen <shiawuen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shiawuen/node-libots/issues"
+    "url": "https://github.com/shiawuen/ots-summary/issues"
   },
-  "homepage": "https://github.com/shiawuen/node-libots",
+  "homepage": "https://github.com/shiawuen/ots-summary",
   "dependencies": {
     "concat-stream": "^1.4.6"
   }
