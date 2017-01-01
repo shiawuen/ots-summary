@@ -36,6 +36,7 @@ OTS.prototype.end = function(source, next){
     source = cat.stdout
     cat.stderr.pipe(mergeError)
   }
+  params.push(source);
   var task = spawn('ots', params)
   task.stdout.setEncoding('utf8')
   task.stdout.pipe(concat(function(data){ next(null, data) }))
